@@ -1,35 +1,82 @@
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 2.25em;
+    font-size: 2.75em;
     color: #333;
+}
+
+h1 span{
+    color:  #A502FA;
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 1.75em;
-    color: #333;
+    font-size: 2.25em;
+    color:  #A502FA;
+}
+
+h2 span{
+    color:#333;
 }
 
 h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #333;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
     color: #333;
 }
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.1em;
+    color: #333;
 }
 
-.btn{
+.custom-btn{
     border-radius: 36px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 1.25em;
     padding: 5px 45px;
     letter-spacing: 2px;
+    border:2px solid #A502FA;
+    color: #A502FA;
+}
+.custom-btn:hover{
+    background-color:  #A502FA;
+    color: white;
+}
+
+a{
+    color: #FA0F9D;
+    transition: 0.15s all ease;
+}
+
+a:hover{
+    color:#A502FA;
+    text-decoration: none;
+}
+
+.container-custom{
+    max-width: 1366px;
+    margin: 110px auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1366px){
+    .container-custom{
+        margin-left: 15px;
+        margin-right: 15px;
+    } 
 }

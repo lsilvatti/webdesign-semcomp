@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -13,8 +14,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&family=Source+Sans+Pro:ital,wght@0,400;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;0,700;1,700&family=Source+Sans+Pro:ital,wght@0,400;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="theming.css">
     <link rel="stylesheet" href="main.css">
@@ -23,12 +25,13 @@
 <body>
     <div class="hello-world">
         <div class="animate__animated animate__fadeIn">
-            <h1 style="text-align: center;">Minicurso de Webdesign</h1>
-            <h2 style="text-align: center;">SEMCOMP XXIII</h2>
+            <h1 style="text-align: center;">Minicurso de <span>Webdesign</span></h1>
+            <h2 style="text-align: center;"><span>SEMCOMP XXIII</span></h2>
+            <h5 style="text-align: center;">por Leonardo Silvatti</h5>
         </div>
     </div>
-    <div class="container-xl">
-        <h3>O que é Webdesign?</h3>
+    <div id="whatis" class="container-custom">
+        <h2>O que é Webdesign?</h2>
         <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing culpa cillum
             occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
             esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat aliquip tempor
@@ -42,16 +45,347 @@
             Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
             Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
             reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-            <div class="buttons-wrapper">
-                <button type="button" class="btn btn-outline-primary">UI x UX</button>
-                <button type="button" class="btn btn-outline-success">Cores</button>
-                <button type="button" class="btn btn-outline-danger">Tipografia</button>
-                <button type="button" class="btn btn-outline-warning">Gestalt</button>
+        <div class="buttons-wrapper">
+            <a role="button" href="#uiux" class="btn custom-btn">UI/UX</a>
+            <a role="button" href="#colors" class="btn custom-btn">Cores</a>
+            <a role="button" href="#tipo" class="btn custom-btn">Tipografia</a>
+            <a role="button" href="#gestalt" class="btn custom-btn">Gestalt</a>
+            <a role="button" href="#xd" class="btn custom-btn">Adobe XD</a>
+        </div>
+    </div>
+    <div id="uiux" class="container-custom">
+        <h2>UI e UX</h2>
+        <div class="row first-row">
+            <div style="display: flex;" class="col-md-6">
+                <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
             </div>
+            <div class="col-md-5 offset-md-1">
+                <h3>UI</h3>
+                <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                    culpa cillum
+                    occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                    laborum et
+                    esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                    aliquip tempor
+                    exercitation ut ea.<br><br>
+
+                    Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                    ad labore
+                    do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                    Adipisicing
+                    aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                    irure. Irure
+                    dolor consequat dolor in.<br><br>
+
+                    Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                    nulla
+                    Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                    sint
+                    reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h3>UX</h3>
+                <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                    culpa cillum
+                    occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                    laborum et
+                    esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                    aliquip tempor
+                    exercitation ut ea.<br><br>
+
+                    Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                    ad labore
+                    do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                    Adipisicing
+                    aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                    irure. Irure
+                    dolor consequat dolor in.<br><br>
+
+                    Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                    nulla
+                    Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                    sint
+                    reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+            </div>
+            <div style="display: flex;" class="col-md-6 offset-md-1">
+                <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
+            </div>
+        </div>
+        <a href="#whatis">voltar ao topo</a>
+    </div>
+    <div id="colors" class="container-custom">
+        <h2>Cores</h2>
+        <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing culpa cillum
+            occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
+            esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat aliquip tempor
+            exercitation ut ea.<br><br>
+
+            Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam ad labore
+            do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate. Adipisicing
+            aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat irure. Irure
+            dolor consequat dolor in.<br><br>
+
+            Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
+            Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
+            reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+        <a href="#whatis">voltar ao topo</a>
+    </div>
+    <div id="tipo" class="container-custom">
+        <h2>Tipografia</h2>
+        <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing culpa cillum
+            occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
+            esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat aliquip tempor
+            exercitation ut ea.<br><br>
+
+            Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam ad labore
+            do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate. Adipisicing
+            aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat irure. Irure
+            dolor consequat dolor in.<br><br>
+
+            Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
+            Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
+            reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+        <a href="#whatis">voltar ao topo</a>
+    </div>
+    <div id="gestalt" class="container-custom">
+        <h2>Gestalt</h2>
+        <p>O estudo de Gestalt está relacionado à percepção que os usuários têm do mundo e o que nele contém. Ele
+            explica como o cérebro pode nos influenciar em determinadas situações, através da interpretação do que
+            vemos. Ele é divido em 7 princípios básicos.</p>
+            <div class="row first-row">
+                <div style="display: flex;" class="col-md-6">
+                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
+                </div>
+                <div class="col-md-5 offset-md-1">
+                    <h3>Proximidade</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+            </div>
+            <div class="row first-row">
+                <div class="col-md-5">
+                    <h3>Similaridade</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+                <div style="display: flex;" class="col-md-6 offset-md-1">
+                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
+                </div>
+            </div>
+
+            <div class="row first-row">
+                <div style="display: flex;" class="col-md-6">
+                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
+                </div>
+                <div class="col-md-5 offset-md-1">
+                    <h3>Continuidade</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-5 first-row">
+                    <h3>Fechamento</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+                <div style="display: flex;" class="col-md-6 offset-md-1">
+                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
+                </div>
+            </div>
+
+            <div class="row first-row">
+                <div style="display: flex;" class="col-md-6">
+                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
+                </div>
+                <div class="col-md-5 offset-md-1">
+                    <h3>Figura-fundo</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-5 first-row">
+                    <h3>Região comum</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+                <div style="display: flex;" class="col-md-6 offset-md-1">
+                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="display: flex;" class="col-md-6 offset-md-1">
+                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
+                </div>
+                <div class="col-md-5">
+                    <h3>Ponto focal</h3>
+                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
+                        culpa cillum
+                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
+                        laborum et
+                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
+                        aliquip tempor
+                        exercitation ut ea.<br><br>
+    
+                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
+                        ad labore
+                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
+                        Adipisicing
+                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
+                        irure. Irure
+                        dolor consequat dolor in.<br><br>
+    
+                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
+                        nulla
+                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
+                        sint
+                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+                </div>
+            </div>
+        <a href="#whatis">voltar ao topo</a>
+    </div>
+    <div id="xd" class="container-custom">
+        <h2>Adobe XD</h2>
+        <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing culpa cillum
+            occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
+            esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat aliquip tempor
+            exercitation ut ea.<br><br>
+
+            Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam ad labore
+            do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate. Adipisicing
+            aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat irure. Irure
+            dolor consequat dolor in.<br><br>
+
+            Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
+            Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
+            reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+        <a href="#whatis">voltar ao topo</a>
     </div>
 </body>
 <script src="scripts.js"></script>
 <script src="wow.min.js"></script>
 <script>
     new WOW().init();
+    var scroll = new SmoothScroll('a[href*="#"]');
 </script>
