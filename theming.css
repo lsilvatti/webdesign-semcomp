@@ -33,6 +33,12 @@ h5{
     color: #333;
 }
 
+.back-top{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -55,12 +61,12 @@ p{
     color: white;
 }
 
-a{
+.back-top{
     color: #FA0F9D;
     transition: 0.15s all ease;
 }
 
-a:hover{
+.back-top:hover{
     color:#A502FA;
     text-decoration: none;
 }

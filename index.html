@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <head>
+    <title>Princípios do Webdesign</title>
+    <link rel="icon" href="img/favicon.gif" type="image/gif" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -18,8 +20,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;0,700;1,700&family=Source+Sans+Pro:ital,wght@0,400;1,400&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="theming.css">
     <link rel="stylesheet" href="main.css">
+
 </head>
 
 <body>
@@ -114,7 +123,7 @@
                 <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
             </div>
         </div>
-        <a href="#whatis">voltar ao topo</a>
+        <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="colors" class="container-custom">
         <h2>Cores</h2>
@@ -131,7 +140,7 @@
             Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
             Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
             reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-        <a href="#whatis">voltar ao topo</a>
+        <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="tipo" class="container-custom">
         <h2>Tipografia</h2>
@@ -148,227 +157,118 @@
             Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
             Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
             reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-        <a href="#whatis">voltar ao topo</a>
+        <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="gestalt" class="container-custom">
         <h2>Gestalt</h2>
         <p>O estudo de Gestalt está relacionado à percepção que os usuários têm do mundo e o que nele contém. Ele
             explica como o cérebro pode nos influenciar em determinadas situações, através da interpretação do que
             vemos. Ele é divido em 7 princípios básicos.</p>
-            <div class="row first-row">
-                <div style="display: flex;" class="col-md-6">
-                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
-                </div>
-                <div class="col-md-5 offset-md-1">
-                    <h3>Proximidade</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
+            <div class="principle">
+                <h3>Figura-Fundo</h3>
+                <p>Este princípio afirma que nossa percepção instintivamente percebe objetos como estando ou à frente ou ao fundo. Pois, como seres humanos, não somos capazes de focar na frente e no fundo simultaneamente, e precisamos escolher apenas um.
+                    Assim, em interfaces, este princípio é amplamente aplicado em navegações, modais e caixas de diálogo. Observe nos exemplos abaixo que o fundo torna-se secundário quando uma ação que necessita de maior foco é trazida à frente.
+                </p>
+                <div class="gallery-gestalt">
+                    <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/apple-figure-ground_0.jpg">
+                    <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/0_5_CB12sVUQ6Ewly1.jpg">
                 </div>
             </div>
-            <div class="row first-row">
-                <div class="col-md-5">
-                    <h3>Similaridade</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
-                <div style="display: flex;" class="col-md-6 offset-md-1">
-                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
-                </div>
+        <div class="principle">
+            <h3>Proximidade</h3>
+            <p>O princípio da proximidade afirma que coisas que estão próximas parecem ser mais relacionadas entre si do
+                que
+                se estiverem distantes. De uma maneira visual, essas coisas estão presente no dia-a-dia.
+                No exemplo abaixo, ambas imagens possuem os mesmos elementos, mas a mudança na proximidade faz com que
+                os
+                grupos e relações sejam percebidos de forma diferente.</p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/proximidade1.png">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/proximidade3.png">
             </div>
-
-            <div class="row first-row">
-                <div style="display: flex;" class="col-md-6">
-                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
-                </div>
-                <div class="col-md-5 offset-md-1">
-                    <h3>Continuidade</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
+            <p>Esse princípio é tão forte que mesmo que os elementos sejam contrastantes, se estiverem agrupados, serão
+                percebidos como relacionados.</p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/proximidade2.png">
             </div>
-    
-            <div class="row">
-                <div class="col-md-5 first-row">
-                    <h3>Fechamento</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
-                <div style="display: flex;" class="col-md-6 offset-md-1">
-                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
-                </div>
+        </div>
+        <div class="principle">
+            <h3>Similaridade</h3>
+            <p>O princípio da similaridade explora o fato de que coisas que são parecidas são percebidas como parte do
+                mesmo grupo e tendem a ser percebidas como tendo a mesma função. Na primeira imagem temos o exemplo com
+                formas, o cérebro associa formas parecidas
+                a funções parecidas, então vemos dois conjuntos. Na segunda, o princípio se torna ainda mais evidente
+                com as cores, apesar de agrupados juntos, a separação de cor torna os elementos claramente agrupados
+                pela sua similaridade.
+            </p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/similaridade2.png">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/similaridade1.png">
             </div>
-
-            <div class="row first-row">
-                <div style="display: flex;" class="col-md-6">
-                    <img class="img-fluid" src="svg\undraw_design_components_9vy6.svg">
-                </div>
-                <div class="col-md-5 offset-md-1">
-                    <h3>Figura-fundo</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
+        </div>
+        <div class="principle">
+            <h3>Continuidade</h3>
+            <p>Aqui temos a afirmação de que elementos arranjados em uma linha ou curva são mais percebidos do que
+                elementos que não estão nesta forma. Por exemplo, na imagem abaixo, as bolinhas
+                roxas na curva, apesar de serem de uma cor diferente das bolinhas pretas da parte de baixo da curva,
+                parecem mais relacionadas a elas do que às bolinhas roxas que estão na linha. Isso acontece porque o
+                olho
+                segue mais naturalmente uma reta ou sinuosidade. Esse movimento supera a similaridade por cores.
+            </p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/continuation.png">
             </div>
-    
-            <div class="row">
-                <div class="col-md-5 first-row">
-                    <h3>Região comum</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
-                <div style="display: flex;" class="col-md-6 offset-md-1">
-                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
-                </div>
+            <p>É possível também fazer com que a continuidade seja uma ilusão para dar dicas da interface ao usuário.
+                Isso é comumente visto em galerias que deixam parte do próximo elemento parcialmente visível.</p>
+                <div style="margin-bottom: 25px;" class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/1.jpeg"></div>
+                      <div class="swiper-slide"><img src="img/2.jpeg"></div>
+                      <div class="swiper-slide"><img src="img/3.jpeg"></div>
+                      <div class="swiper-slide"><img src="img/4.jpeg"></div>
+                      <div class="swiper-slide"><img src="img/5.jpeg"></div>
+                      <div class="swiper-slide"><img src="img/6.jpeg"></div>
+                    </div>
+                  </div>
+        </div>
+        <div class="principle">
+            <h3>Fechamento</h3>
+            <p>Aqui temos a afirmação de que elementos arranjados em uma linha ou curva são mais percebidos do que
+                elementos que não estão nesta forma. Por exemplo, na imagem abaixo, as bolinhas
+                roxas na curva, apesar de serem de uma cor diferente das bolinhas pretas da parte de baixo da curva,
+                parecem mais relacionadas a elas do que às bolinhas roxas que estão na linha. Isso acontece porque o
+                olho
+                segue mais naturalmente uma reta ou sinuosidade. Esse movimento supera a similaridade por cores.
+            </p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/gestalt-closure.png">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/0_uPjpUSXWRz-eFGew.gif">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/ibm-logo-630x252.png">
             </div>
-
-            <div class="row">
-                <div style="display: flex;" class="col-md-6 offset-md-1">
-                    <img class="img-fluid" src="svg\undraw_User_flow_re_bvfx.svg">
-                </div>
-                <div class="col-md-5">
-                    <h3>Ponto focal</h3>
-                    <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing
-                        culpa cillum
-                        occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea
-                        laborum et
-                        esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat
-                        aliquip tempor
-                        exercitation ut ea.<br><br>
-    
-                        Est veniam incididunt quis enim ullamco culpa est mollit aliquip anim nostrud. Sunt sint et veniam
-                        ad labore
-                        do proident sunt adipisicing dolor esse. Dolore culpa occaecat adipisicing anim voluptate.
-                        Adipisicing
-                        aliquip ut laboris sint. Do elit est excepteur ex ullamco nulla elit in. Magna ut eu cupidatat
-                        irure. Irure
-                        dolor consequat dolor in.<br><br>
-    
-                        Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt
-                        nulla
-                        Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat
-                        sint
-                        reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-                </div>
+        </div>
+        <div class="principle">
+            <h3>Região Comum</h3>
+            <p>A região comum talvez seja um dos princípios de maior percepção, pois consiste em um grupo de elementos contornados por uma região fechada, seja ela uma borda, um fundo ou um elemento comum que englobe estes sub-elementos. Aqui, esta organização supera
+                as cores, formas e continuidades, pois a percepção de uma região comum é muito mais fácil ao cérebro do que as citadas anteriormente.
+            </p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/commonreg.png">
             </div>
-        <a href="#whatis">voltar ao topo</a>
+        </div>
+        <div class="principle">
+            <h3>Ponto Focal</h3>
+            <p>Por último em nossa lista, o princípio do ponto focal afirma que qualquer elemento que se destacar visualmente vai capturar e prender a atenção de quem está vendo.Dessa forma, em interfaces, utilizamos este princípio ativamente quando tratamos de hierarquia visual ou quando precisamos enfatizar as ações principais que um usuário precisa tomar.
+            </p>
+            <div class="gallery-gestalt">
+                <img style="height:100% ;max-width:500px;object-fit: contain;" class="img" src="img/focal.png">
+            </div>
+        </div>
+        <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="xd" class="container-custom">
         <h2>Adobe XD</h2>
         <p>Aute ullamco aliquip duis ut non pariatur qui incididunt. Proident tempor minim aute adipisicing culpa cillum
-            occaecat non nisi. Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
+            occaecat non nisi. 1111Proident esse culpa et ipsum occaecat quis eiusmod aliqua nisi aliquip. Ea laborum et
             esse do enim. Ut reprehenderit consectetur nisi est veniam consectetur. Sunt veniam consequat aliquip tempor
             exercitation ut ea.<br><br>
 
@@ -380,7 +280,7 @@
             Dolor est cupidatat do fugiat eiusmod esse cillum voluptate proident do mollit. Voluptate incididunt nulla
             Lorem quis qui aute ex mollit sunt dolor. Aliqua mollit ad laboris pariatur. Sit excepteur consequat sint
             reprehenderit aliquip occaecat nisi amet ullamco ad magna irure laborum magna.</p>
-        <a href="#whatis">voltar ao topo</a>
+        <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
 </body>
 <script src="scripts.js"></script>
@@ -388,4 +288,8 @@
 <script>
     new WOW().init();
     var scroll = new SmoothScroll('a[href*="#"]');
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3.2,
+      spaceBetween: 30
+    });
 </script>
