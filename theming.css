@@ -74,10 +74,9 @@ p{
 .container-custom{
     max-width: 1366px;
     margin: 110px auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .hello-world {
