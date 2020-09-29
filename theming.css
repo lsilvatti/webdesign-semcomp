@@ -33,6 +33,24 @@ h5{
     color: #333;
 }
 
+.easter-hero{
+    background-image: url("img/easteregg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.go-back{
+    display: none;
+    text-align: center;
+}
+
+.visible{
+    display: block;
+}
+
+.easter-text{
+    display: none;
+}
+
 .back-top{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
