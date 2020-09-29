@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Princípios do Webdesign</title>
+    <title>Princípios do Web Design</title>
     <link rel="icon" href="img/favicon.gif" type="image/gif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -20,7 +20,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;0,700;1,700&family=Source+Sans+Pro:ital,wght@0,400;1,400&display=swap"
         rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -34,35 +36,28 @@
 <body>
     <div class="hello-world">
         <div class="animate__animated animate__fadeIn">
-            <h1 style="text-align: center;">Minicurso de <span>Webdesign</span></h1>
+            <h1 style="text-align: center;">Minicurso de <span>Web Design</span></h1>
             <h2 style="text-align: center;"><span>SEMCOMP XXIII</span></h2>
             <h5 style="text-align: center;">por Leonardo Silvatti</h5>
         </div>
     </div>
     <div id="whatis" class="container-custom">
-        <h2>O que é um Webdesigner?</h2>
-        <p>A área de Web Design é bem ampla e isso acaba refletindo nas definições que se encontra por aí sobre o que é
-            Web Designer.
-
-            Basicamente o Web Designer é o profissional que planeja, desenvolve e realiza manutenção em sites e
-            aplicações de Internet. Esse profissional deve ser capaz de fazer o levantamento das necessidades e
-            objetivos de cada cliente, baseado nisso elaborar o projeto estético e funcional do web site e então
-            realizar o desenvolvimento do Site.
-
-            Podemos separar o Webdesigner em duas áreas de atuação, sendo que muitos atuam nas duas. A área do design
-            gráfico, em que o profissional faz a elaboração do layout das páginas, usabilidade, disposição dos textos,
-            imagens, banners e afins. E a área de Programação Web, em que o profissional desenvolve lógicas, interfaces
-            e scripts dentro do web site para atender às necessidades do cliente, por exemplo uma área de login.
-            <br><br>
-            Esse minicurso abordará algumas áreas básicas da profissão, bem como seus conceitos básicos :) seguirei a
-            ordem linear, mas coloquei esses botõezinhos para que vocês possam acessar o conteúdo que quiserem mesmo
-            após o fim do minicurso!
+        <h2>O que é um Web Designer?</h2>
+        <p>Web Design é uma área ampla e que reflete nas definições sobre o que é um Web Designer. Basicamente, é o
+            profissional que planeja, desenvolve e realiza manutenção em sites e aplicações para Internet. O mesmo deve
+            ser capaz de fazer o levantamento dos requisitos, elaborar o projeto estético e funcional e então realizar o
+            desenvolvimento. Podemos separar o profissional em duas áreas de atuação (muitos atuam nas duas): Design
+            gráfico que engloba a elaboração do layout das páginas, usabilidade, disposição dos textos, imagens, banners
+            e afins; e Desenvolvimento Web englobando o desenvolvimento de lógicas, interfaces e funcionalidades para
+            atender às necessidades do cliente.
+            Esse minicurso abordará alguns tópicos básicos da área.<br><br>
+            Abaixo seguem alguns links para acesso ao conteúdo do curso.
         </p>
         <div class="buttons-wrapper">
             <a role="button" href="#uiux" class="btn custom-btn">UI/UX</a>
             <a role="button" href="#colors" class="btn custom-btn">Cores</a>
             <a role="button" href="#tipo" class="btn custom-btn">Tipografia</a>
-            <a role="button" href="#gestalt" class="btn custom-btn">Gestalt</a>
+            <a role="button" href="#gestalt" class="btn custom-btn">Gestalt</a>0
             <a role="button" href="#xd" class="btn custom-btn">Adobe XD</a>
         </div>
     </div>
@@ -113,13 +108,101 @@
         <p>A psicologia das cores, resumido</p>
         <div class="gallery-gestalt"><img class="img-fluid" src="img/psicologia-das-cores-5-768x673.png"></div>
         <p>Combinações e sites para paleta e roda, detalhe sobre forma e cor, atrelado a daltonismo</p>
+        <p>Nosso cérebro interpreta 3 tipos de informações na seguinte ordem: cor, forma e escrita.</p>
         <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="tipo" class="container-custom">
         <h2>Tipografia</h2>
-        <p>Tipografia e sua importância
+        <p>Hoje em dia a tipografia é conhecida por ser uma ferramenta essencial do design gráfico, e tem extrema
+            importância na construção do seu branding. Atualmente, Tipografia é o nome dado ao estudo, criação e
+            aplicação de caracteres, estilos, formatos e disposição visual de palavras.
+            <br>Um bom estudo de tipografia é capaz de representar, graficamente, valores e posicionamento da empresa,
+            além de despertar sentimentos e percepções do público.<br>
+            Como aqui estamos focando em sites e apps, temos algumas convenções a serem seguidas:</p>
+        <ul>
+            <li>Comumente usamos o máximo de duas fontes para construir a identidade gráfica de um produto, sendo
+                uma para títulos e destaques e outra para textos, como parágrafos e conteúdos.</li>
+            <li>O HTML possibilita a criação de uma hierarquia e tematização com as tags p, h1, h2, span entre
+                outras.</li>
+            <li>A acessibilidade é importante, assim como a responsividade, por isso sempre usamos medidas relativas
+                como em, rem e % para a programação</li>
+        </ul><br>
+        <p>Existem 4 tipos mais comuns de fontes que são usadas:</p>
+        <div class="row tipo-container">
+            <div class="col-md-6">
+                <h3>Serif</h3>
+                <p>Esses são os tipos de fontes mais antigos. Os primeiros exemplos apareceram já no final do século
+                    XV. A palavra “serifa” refere-se aos pequenos pés presentes nas partes superior e inferior de
+                    cada letra. Esses pequenos floreios originaram-se dos pincéis dos artistas e eram adicionados às
+                    letras como elementos decorativos.
+                    <br>
+                    As fontes serifadas podem ser divididas, ainda, em várias subcategorias (estilo antigo,
+                    clássico, neoclássico, transicional, Clarendon etc.). Hoje, as fontes serifadas estão entre os
+                    tipos de letras mais populares, com estilos como o “Times New Roman” sempre presentes em livros,
+                    documentos e até mesmo alguns logotipos.
+                    <br>
+                    Esse estilo de fonte é caracterizado por um design mais conservador e (algumas das muitas
+                    subclasses, não obstante) a presença de serifas nas partes superior e inferior da maioria das
+                    letras.</p>
+            </div>
+            <div style="display: flex;align-items: center;" class="col-md-5 offset-md-1">
+                <h2 class="tipo-example serif">Juiz faz com que whisky de malte baixe logo preço de venda.</h1>
+            </div>
+        </div>
+        <div class="row tipo-container">
+            <div class="col-md-6">
+                <h3>Sans-serif</h3>
+                <p>As fontes não serifadas dispensam os floreios de sua predecessora em troca de uma abordagem mais
+                    limpa e moderna. Esse contraste faz com que combinem bem com as fontes serifadas. Elas datam do
+                    século XIX e tornaram-se imensamente populares nas décadas de 1920 e 30. Durante a metade do
+                    século XX, designers alemães expandiram ainda mais o corpo tipográfico com a criação do popular
+                    design Helvetica.
+                    <br>
+                    Essas fontes são definidas pelas suas linhas retas e simples. Elas não apresentam floreios e
+                    enfatizam a legibilidade e a simplicidade em prol de um visual mais dimensionável.</p>
+            </div>
+            <div style="display: flex;align-items: center;" class="col-md-5 offset-md-1">
+                <h2 class="tipo-example sans-serif">Juiz faz com que whisky de malte baixe logo preço de venda.</h1>
+            </div>
+        </div>
+        ,<div class="row tipo-container">
+            <div class="col-md-6">
+                <h3>Handwriting</h3>
+                <p>Os estilos caligráficos casuais ganharam popularidade no século XX e suavizam consideravelmente
+                    os floreios.
+                    <br>
+                    Esses tipos de fontes também deixam de lado o visual de impressão compacto e favorecem o estilo
+                    cursivo, mais natural. As fontes caligráficas são divididas em duas principais subcategorias –
+                    formais ou casuais – e são desenhadas para se assemelharem à caligrafia manuscrita.
+                    <br>
+                    As caligráficas formais são definidas por seus floreios e caracóis, que são chamados caracteres
+                    “caudais”. Geralmente, recomenda-se usar essas fontes com moderação, pois podem afetar a
+                    legibilidade e tornar os sinais em palavras ou letras difíceis de entender e dimensionar. As
+                    fontes caligráficas casuais são mais discretas que as formais e enfatizam a legibilidade.</p>
+            </div>
+            <div style="display: flex;align-items: center;" class="col-md-5 offset-md-1">
+                <h2 class="tipo-example handwriting">Juiz faz com que whisky de malte baixe logo preço de venda.
+                    </h1>
+            </div>
+        </div>
+        <div class="row tipo-container">
+            <div class="col-md-6">
+                <h3>Display</h3>
+                <p>As fontes display ou gráficas renunciam às convenções em favor de um corpo tipográfico
+                    único e atraente. A maioria dos tipos decorativos é útil para diversos setores e necessidades,
+                    pois essas fontes geralmente são criadas sob medida para empresas específicas e são raramente usadas para longas sequências de texto.
+                    <br>
+                    Esses tipos às vezes podem sair de moda se o design for muito específico ou temático.</p>
+            </div>
+            <div style="display: flex;align-items: center;" class="col-md-5 offset-md-1">
+                <h2 class="tipo-example display">Juiz faz com que whisky de malte baixe logo preço de venda.</h1>
+            </div>
+        </div>
+        <p>Ainda existem também fontes monospace, estas seguem uma regra de que cada letra possui a mesma largura e espaçamento. São encontradas nos consoles de computador e editores de texto e sua utilização para construção visual é bem reduzida por não não possuirem características visuais chamativas.</p>
+        <p>Atualmente as ferramentas mais utilizadas para buscar e utilizar fontes são o <a class="external-link" href="https://fonts.google.com/">Google Fonts</a> (gratuíto) e o <a class="external-link" href="https://fonts.adobe.com/">Adobe Fonts</a>.
+            <br>Existem alguns sites como o <a class="external-link" href="https://fontpair.co/">Font Pair</a> que dão dicas para o profissional em relação a harmonização de fontes para um projeto.
         </p>
-        <p>Tipo de fontes e seus usos</p>
+
         <a class="back-top" href="#whatis">voltar ao topo</a>
     </div>
     <div id="gestalt" class="container-custom">

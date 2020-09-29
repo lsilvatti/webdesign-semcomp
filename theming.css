@@ -39,11 +39,53 @@ h5{
     font-size: 0.85em;
 }
 
+.tipo-container{
+    margin:45px 0px;
+}
+
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #555;
+}
+
+.tipo-example{
+    color: #555;
+    font-size: 3em;
+}
+
+.sans-serif{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.serif{
+    font-family: 'Roboto Slab', serif;
+}
+
+.display{
+    font-family: 'Ceviche One', cursive;
+}
+
+.handwriting{
+    font-family: 'Dancing Script', cursive;
+}
+
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
     color: #333;
+}
+
+.external-link{
+    color:#A502FA;
+    transition: 0.15s all ease;
+}
+
+.external-link:hover{
+    color: #FA0F9D;
+    text-decoration: none;
 }
 
 .custom-btn{
