@@ -74,10 +74,9 @@ p{
 .container-custom{
     max-width: 1366px;
     margin: 110px auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .hello-world {
@@ -113,6 +112,7 @@ html {
 .gallery-gestalt {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #gestalt>.principle>h3 {
@@ -152,7 +152,7 @@ html {
     text-align: center;
     font-size: 18px;
     background: black;
-    height: 200px;
+    max-height:  200px;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -181,5 +181,10 @@ html {
     .container-custom{
         margin-left: 15px;
         margin-right: 15px;
-    } 
+    }
+
+    .swiper-slide{
+        height: 100px;
+        object-fit: cover;
+    }
 }
